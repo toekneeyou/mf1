@@ -9,7 +9,7 @@ const App = (props) => {
       console.log("button is clicked");
     }
   };
-  return <div style={{ padding: "50px 12px", display: "flex" }}>App 1</div>;
+  return <div style={{ padding: "50px 12px", display: "flex" }}>I'm from a different APP</div>;
 };
 
 export default App;
