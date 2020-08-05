@@ -10,7 +10,7 @@ module.exports = {
     port: 3001,
   },
   output: {
-    publicPath: "http://localhost:3001/",
+    publicPath: "/",
   },
   module: {
     rules: [
@@ -19,12 +19,12 @@ module.exports = {
         loader: "babel-loader",
         exclude: /node_modules/,
         options: {
-          presets: ["@babel/preset-react"]
+          presets: ["@babel/preset-react"],
         },
       },
       {
         test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
+        use: ["style-loader", "css-loader"],
       },
     ],
   },
