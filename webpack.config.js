@@ -10,7 +10,7 @@ module.exports = {
     port: 3001,
   },
   output: {
-    publicPath: "/",
+    publicPath: "https://mf1-two.vercel.app/",
   },
   module: {
     rules: [
